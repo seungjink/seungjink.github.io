@@ -7,7 +7,8 @@
     "build": "npm run theme && hexo generate",
     "clean": "hexo clean",
     "deploy": "npm run theme && hexo deploy",
-    "server": "npm run theme && hexo server"
+    "server": "npm run theme && hexo server",
+    "a": "npm run theme && hexo generate && hexo deploy && git add * && git commit -m \"post update\" && git push origin master"
   },
   "hexo": {
     "version": "4.2.0"
