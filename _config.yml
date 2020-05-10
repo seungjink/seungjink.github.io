@@ -92,10 +92,15 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+Pluagins: 
+- hexo-deployer-git
 ## Themes: https://hexo.io/themes/
 theme: purer
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/seungjink/seungjink.github.io
+  branch: master
+
