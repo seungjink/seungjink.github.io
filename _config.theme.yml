@@ -38,7 +38,7 @@ pagination:
 
 comment:
   type: disqus # gitalk  # 启用哪种评论系统
-  disqus: seungjk # enter disqus shortname here
+  disqus: seungjk  # enter disqus shortname here
   livere:
     uid: # enter youyan uid
   gitalk: # gitalk. https://gitalk.github.io/
