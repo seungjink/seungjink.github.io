@@ -32,7 +32,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:date-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -94,6 +94,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 Pluagins: 
 - hexo-deployer-git
+- hexo-generator-json-content
 ## Themes: https://hexo.io/themes/
 theme: purer
 

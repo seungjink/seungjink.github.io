@@ -37,8 +37,8 @@ pagination:
     alwayShow: true
 
 comment:
-  type: # gitalk  # 启用哪种评论系统
-  disqus:  # enter disqus shortname here
+  type: disqus # gitalk  # 启用哪种评论系统
+  disqus: seungjk # enter disqus shortname here
   livere:
     uid: # enter youyan uid
   gitalk: # gitalk. https://gitalk.github.io/
@@ -79,7 +79,7 @@ profile:
   enabled: false # Whether to show profile bar
 #  avatar: images/avatar.jpg
   gravatar: MyEmailAddress@example.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: fengkx
+  author: Seungjin Kang
   author_title: ''
   author_description: ''
   location: Seoul, Korea
@@ -92,8 +92,8 @@ profile:
       # twitter: ''
       # facebook: /
       # dribbble: /
-#      behance: https://www.behance.net/cofess
-      rss: atom.xml
+      # behance: https://www.behance.net/cofess
+      # rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
 
   # My Personal Links
