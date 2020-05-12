@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: True
 relative_link: false
 future: true
 highlight:
@@ -92,9 +92,23 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+markdown:
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: ¡°¡±¡®¡¯
+  anchors:
+    level: 1
+    permalink: false
+    separator: '-'
 Pluagins: 
-- hexo-deployer-git
-- hexo-generator-json-content
+  - hexo-deployer-git
+  - hexo-generator-json-content
+  - markdown-it-emjoi
+
 ## Themes: https://hexo.io/themes/
 theme: purer
 
@@ -105,3 +119,14 @@ deploy:
   repo: https://github.com/seungjink/seungjink.github.io
   branch: master
 
+# Markdown-it plugin
+markdown_it_plus:
+    highlight: true
+    html: true
+    xhtmlOut: true
+    breaks: true
+    langPrefix:
+    linkify: true
+    typographer:
+    quotes: ¡°¡±¡®¡¯
+    pre_class: highlight
