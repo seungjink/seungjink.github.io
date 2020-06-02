@@ -99,7 +99,7 @@ markdown:
   langPrefix:
   linkify: true
   typographer:
-  quotes: °∞°±°Æ°Ø
+  quotes: 
   anchors:
     level: 1
     permalink: false
@@ -117,16 +117,16 @@ theme: purer
 deploy:
   type: git
   repo: https://github.com/seungjink/seungjink.github.io
-  branch: master
+  branch: gh-pages
 
 # Markdown-it plugin
 markdown_it_plus:
-    highlight: true
-    html: true
-    xhtmlOut: true
-    breaks: true
-    langPrefix:
-    linkify: true
-    typographer:
-    quotes: °∞°±°Æ°Ø
-    pre_class: highlight
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: false
+  typographer:
+  quotes: ‚Äú‚Äù‚Äò‚Äô
+  pre_class: highlight

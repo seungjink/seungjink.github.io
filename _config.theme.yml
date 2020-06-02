@@ -42,8 +42,8 @@ comment:
   livere:
     uid: # enter youyan uid
   gitalk: # gitalk. https://gitalk.github.io/
-    owner: seungjink #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin: seungjink #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    owner: # GitHub repository 所有者，可以是个人或者组织。
+    admin: # GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
     repo: blog-comment #必须. GitHub repository.
     ClientID:  #必须. GitHub Application Client ID.
     ClientSecret:  #必须. GitHub Application Client `ecret.
@@ -52,9 +52,9 @@ comment:
     appkey:  # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: Just go go # comment box placeholder
-    avatar: mm # gravatar style
-    meta: nick,mail,link # custom comment header
+    placeholder: # comment box placeholder
+    avatar:  # gravatar style
+    meta:  # custom comment header
     pageSize: 10 # pagination size
     visitor: false # Article reading statistic https://valine.js.org/visitor.html
 
