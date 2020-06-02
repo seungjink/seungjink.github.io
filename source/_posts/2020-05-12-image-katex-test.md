@@ -8,6 +8,3 @@ Test-image-katex
 
 katex test
 $\sqrt{3x-1}+(1+x)^2$
-
-Image test
-{% asset_img "n3.png" "img test" %}
