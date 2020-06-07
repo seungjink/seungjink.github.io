@@ -110,7 +110,7 @@ Pluagins:
   - markdown-it-emjoi
 
 ## Themes: https://hexo.io/themes/
-theme: purer
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -129,3 +129,9 @@ markdown_it_plus:
   typographer:
   quotes: “”‘’
   pre_class: highlight
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
