@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>테스트</title>
+    <url>/2020/05/11/%ED%85%8C%EC%8A%A4%ED%8A%B8/</url>
+    <content><![CDATA[<link crossorigin="anonymous" media="screen" rel="stylesheet" href="/css/google_photos_album.css" /><p>코멘트 작성 테스트</p>
+<script>
+function addLoadEvent(func) {
+  const oldonload = window.onload;
+  if (typeof window.onload !== 'function') {
+    window.onload = func;
+  } else {
+    window.onload = () => {
+      oldonload();
+      func();
+    };
+  }
+}
+  addLoadEvent(() => {
+    try {
+      if (window.innerWidth < Number('768')) {
+        return;
+      }
+      let imgs = Array.from(document.body.querySelectorAll('.google-photos-album-images a'));
+      imgs.push(...Array.from(document.body.querySelectorAll('a.google-photos-album-image')));
+      for (let anchor of imgs) {
+        anchor.href = anchor.href.replace(/=s720\-no/i, '=s1920-no');
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  });
+</script>
+]]></content>
+  </entry>
+  <entry>
     <title>test page 2</title>
     <url>/2020/05/10/test-2/</url>
     <content><![CDATA[<link crossorigin="anonymous" media="screen" rel="stylesheet" href="/css/google_photos_album.css" /><p>Test</p>
@@ -34,9 +67,17 @@ function addLoadEvent(func) {
 ]]></content>
   </entry>
   <entry>
-    <title>테스트</title>
-    <url>/2020/05/11/%ED%85%8C%EC%8A%A4%ED%8A%B8/</url>
-    <content><![CDATA[<link crossorigin="anonymous" media="screen" rel="stylesheet" href="/css/google_photos_album.css" /><p>코멘트 작성 테스트</p>
+    <title>image-katex-test</title>
+    <url>/2020/05/12/image-katex-test/</url>
+    <content><![CDATA[<link crossorigin="anonymous" media="screen" rel="stylesheet" href="/css/google_photos_album.css" /><p>Test-image-katex</p>
+<p>katex test<br />
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">\sqrt{3x-1}+(1+x)^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.17444499999999996em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8655550000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord">3</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">1</span></span></span><span style="top:-2.825555em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.17444499999999996em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathdefault">x</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></p>
 <script>
 function addLoadEvent(func) {
   const oldonload = window.onload;
@@ -111,164 +152,5 @@ function addLoadEvent(func) {
   });
 </script>
 ]]></content>
-  </entry>
-  <entry>
-    <title>image-katex-test</title>
-    <url>/2020/05/12/image-katex-test/</url>
-    <content><![CDATA[<link crossorigin="anonymous" media="screen" rel="stylesheet" href="/css/google_photos_album.css" /><p>Test-image-katex</p>
-<p>katex test<br />
-<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">\sqrt{3x-1}+(1+x)^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.17444499999999996em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8655550000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord">3</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">1</span></span></span><span style="top:-2.825555em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.17444499999999996em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathdefault">x</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></p>
-<script>
-function addLoadEvent(func) {
-  const oldonload = window.onload;
-  if (typeof window.onload !== 'function') {
-    window.onload = func;
-  } else {
-    window.onload = () => {
-      oldonload();
-      func();
-    };
-  }
-}
-  addLoadEvent(() => {
-    try {
-      if (window.innerWidth < Number('768')) {
-        return;
-      }
-      let imgs = Array.from(document.body.querySelectorAll('.google-photos-album-images a'));
-      imgs.push(...Array.from(document.body.querySelectorAll('a.google-photos-album-image')));
-      for (let anchor of imgs) {
-        anchor.href = anchor.href.replace(/=s720\-no/i, '=s1920-no');
-      }
-    } catch (e) {
-      console.log(e);
-    }
-  });
-</script>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hexo를 사용하여 간단히 블로그 만들기 - 1편</title>
-    <url>/2020/05/13/2020-05-13-Hexo%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B0%84%EB%8B%A8%ED%9E%88-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1%ED%8E%B8/</url>
-    <content><![CDATA[<link crossorigin="anonymous" media="screen" rel="stylesheet" href="/css/google_photos_album.css" /><img style="width:30%;margin:auto;" src="https://lh3.googleusercontent.com/lRGg0pc4YYgkFiV8DLRN6VHXDTzRcQttcc6br5fWakCULpiqFwzCQ-Zh7GmvgKLVIvvLl0ptdCvkaDR3NKLChH9Vn8kDA2D7XiP1kmrY_XeMrGKir9lABsxpoMC2MwpM6LFg5Xmf=d?-.jpg">
-<p><code></code><br />
-<code></code><br />
-Hexo를 사용하여 블로그를 만드는 방법을 정리해본다.<br />
-기본적으로 Windows 환경에서 설치한다고 가정하고, linux를 사용하는 경우에는<br />
-git이나 node.js를 설치하는 방법만 달라지고 나머지 사용 방법은 같다.<br />
-<code></code><br />
-<code></code><br />
-<code></code></p>
-<h1 id="필요-라이브러리-설치"><a class="markdownIt-Anchor" href="#필요-라이브러리-설치"></a> 필요 라이브러리 설치</h1>
-<p>Hexo를 사용하기 위해 필수적으로 설치해야 하는 프로그램은 아래 2개이다.</p>
-<ul>
-<li><a href="https://nodejs.org" target="_blank" rel="noopener">node.js</a></li>
-<li><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a></li>
-</ul>
-<p>node.js 는 hexo를 설치하고 hexo내에서 사용하는 여러가지 테마나 플러그인등을 관리하기위해 사용된다.<br />
-홈페이지에 접속후 <strong>LTS 버전</strong> 을 받아서 설치하면 된다.<br />
-git은 hexo로 만들어진 사이트를 github 같은 저장소에 업로드하고 관리하기 위해 사용된다.<br />
-32비트나 64비트 버전 2개가 있을텐데 본인 운영체제에 맞는걸 받아서 설치하면 된다.<br />
-설치가 끝난후에는 cmd창에서 다음 명령어를 실행하여 hexo를 설치한다.</p>
-<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<p>여기까지 끝냈으면 이제 설치과정은 끝이고, 본격적으로 사이트를 만들수 있다.<br />
-<code></code><br />
-<code></code><br />
-<code></code></p>
-<h1 id="github-계정-및-저장소-만들기"><a class="markdownIt-Anchor" href="#github-계정-및-저장소-만들기"></a> github 계정 및 저장소 만들기</h1>
-<p>두번째로 해야할 작업은 github 계정 및 저장소를 만드는 과정이다.<br />
-hexo는 단순히 웹페이지를 만드는 도구이기 때문에 이걸로 사이트를 만든다고 해서 웹에서 접속할수는 없다.<br />
-웹에 호스팅 하는 방법은 여러가지가 있는데 그중 가장 흔한 github page를 이용할 예정이다.<br />
-우선 github 에 가입하자.</p>
-<ul>
-<li><a href="https://github.com/" target="_blank" rel="noopener">github</a></li>
-</ul>
-<p>그리고나서 저장소(repository)를 만들어준다.<br />
-이때 저장소의 이름은 <strong>본인ID.github.io</strong> 로 생성해준다.</p>
-<img style="margin:auto;" src="https://lh3.googleusercontent.com/3mCNZLTakWG3f4u3qhKqlunrzxQDj5JlDa0FIxYyDqpqHhxdnlnXg4o29w680vVV9UfVnbESHUNoRFImwwsqsCGMQ5usrcA-WHCi-RKwRAOsyNITrTsAgx2C5M1VdYJHt5ZEz1xA=d?-.jpg">
-<p>이런식으로 <strong>본인ID.github.io</strong> 를 저장소 이름으로 하고 아래 Create repository 버튼을 눌러주면 된다.<br />
-그러면 최종적으로 https://github.com/본인ID/저장소이름 이런식의 저장소가 만들어지게 된다.<br />
-여기까지 했으면 이제 브라우저해서 할수 있는 일은 끝이다.<br />
-<code></code><br />
-<code></code><br />
-<code></code></p>
-<h1 id="hexo-페이지-생성"><a class="markdownIt-Anchor" href="#hexo-페이지-생성"></a> Hexo 페이지 생성</h1>
-<p>이제 본인 컴퓨터에서 블로그 파일들을 저장할 곳으로 이동해준다.<br />
-그다음 cmd 창을 열어서 다음 내용을 타이핑한다.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init HexoTest</span><br></pre></td></tr></table></figure>
-<p>이러면 ‘HexoTest’ 이라는 내용의 새 폴더가 만들어지고, 그 안에 hexo 관련 파일들이 자동으로 생성된다.<br />
-이 내용은 본인이 저장하고 싶은 폴더 이름대로 변경하면 된다.<br />
-만약 'HexoTest’를 생략하고 hexo init 까지만 입력하면 현재 폴더내에 hexo 파일들을 생성하게 된다.<br />
-이제 cmd 창에서 다음 내용을 입력해 폴더로 이동해 준다.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> HexoTest</span><br></pre></td></tr></table></figure>
-<p>그리고 나서 다음 명령어를 입력하면 hexo 사이트가 만들어지게 된다.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate &amp;&amp; hexo server</span><br></pre></td></tr></table></figure>
-<p>결과물은 http://localhost:4000 에 접속하면 볼수있고, 아마 아래 그림처럼 나올 것이다.</p>
-<img style="margin:auto;width:70%" src="https://lh3.googleusercontent.com/XXdzjwvJVPGDeWtVYOrppJHDabzXZpFcPPU1wEWP48uveAzBTG2WxaxRuWYoVQgiI7pgTgHATienWvsg7Ztqxy2OSDUp3Nm3T-wsGKWWpbLtw8XXTbEzCH_DL-gQaD-v6rDfP5Rg=d?-.jpg">
-<p>여기서 <strong>hexo generate</strong> 는 마크다운 파일들을 html 파일로 변경해주는 명령어고<br />
-<strong>hexo server</strong>는 본인 컴퓨터에 로컬서버를 돌려서 결과물을 확인할 수 있게 해주는 기능이다.<br />
-더 자세한 내용은 <a href="https://hexo.io/ko/docs/commands.html" target="_blank" rel="noopener">공식사이트</a> 를 참조하길 바란다.<br />
-이제 여기까지 완료했다면 아마 현재 폴더안의 내용물들은 다음과 같을 것이다.</p>
-<img style="margin:auto;width:40%" src="https://lh3.googleusercontent.com/rLJ4REct0OfE-UlYXxN8HZ77o07unkfvRXwX7nce6EAoJIDjrz6DL-eQUhDN3j2WrIONP45bBGoNeKPNbj0reM9qVwSPD82ib5Md3DE1tDFEwbRKS6UxnojlJvseaILjw9Kwu0J-=d?-.jpg">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">폴더이름</th>
-<th style="text-align:left">용도</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">source</td>
-<td style="text-align:left">실제 블로그에 작성할 포스트 및 그림,첨부자료들</td>
-</tr>
-<tr>
-<td style="text-align:center">public</td>
-<td style="text-align:left">hexo generate를 통해 생서된 html 파일들</td>
-</tr>
-<tr>
-<td style="text-align:center">themes</td>
-<td style="text-align:left">사이트에 적용될 테마 파일들 관리</td>
-</tr>
-</tbody>
-</table>
-<p>나머지 파일들은 자동적으로 생성된 파일들이기 때문에 따로 관리해줄 필요는 없다.</p>
-<script>
-function addLoadEvent(func) {
-  const oldonload = window.onload;
-  if (typeof window.onload !== 'function') {
-    window.onload = func;
-  } else {
-    window.onload = () => {
-      oldonload();
-      func();
-    };
-  }
-}
-  addLoadEvent(() => {
-    try {
-      if (window.innerWidth < Number('768')) {
-        return;
-      }
-      let imgs = Array.from(document.body.querySelectorAll('.google-photos-album-images a'));
-      imgs.push(...Array.from(document.body.querySelectorAll('a.google-photos-album-image')));
-      for (let anchor of imgs) {
-        anchor.href = anchor.href.replace(/=s720\-no/i, '=s1920-no');
-      }
-    } catch (e) {
-      console.log(e);
-    }
-  });
-</script>
-]]></content>
-      <tags>
-        <tag>hexo, github</tag>
-      </tags>
   </entry>
 </search>
