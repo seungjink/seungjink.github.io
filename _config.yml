@@ -107,6 +107,7 @@ ignore:
 Plugins: 
   - hexo-deployer-git
   - markdown-it-emjoi
+  - hexo-generator-robotstxt
 
 ## Themes: https://hexo.io/themes/
 theme: next
@@ -138,3 +139,7 @@ search:
 sitemap:
     path: sitemap.xml
     rel: false
+
+robotstxt:
+  useragent: "*"
+  sitemap: /sitemap.xml
