@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hexo를 사용하여 간단히 블로그 만들기 (1) - 설치 및 초기화</title>
-    <url>/2020/06/09/Hexo%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B0%84%EB%8B%A8%ED%9E%88-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%B4%88%EA%B8%B0%ED%99%94/</url>
+    <url>/2020/06/09/</url>
     <content><![CDATA[<link crossorigin="anonymous" media="screen" rel="stylesheet" href="/css/google_photos_album.css" /><img style="width:30%;margin:auto;" src="https://lh3.googleusercontent.com/lRGg0pc4YYgkFiV8DLRN6VHXDTzRcQttcc6br5fWakCULpiqFwzCQ-Zh7GmvgKLVIvvLl0ptdCvkaDR3NKLChH9Vn8kDA2D7XiP1kmrY_XeMrGKir9lABsxpoMC2MwpM6LFg5Xmf=d?-.jpg">
 <p>Hexo를 사용하여 블로그를 만드는 방법을 정리해본다. 기본적으로 Windows 환경에서 설치한다고 가정하고, linux를 사용하는 경우에는 git이나 node.js를 설치하는 방법만 달라지고 나머지 사용 방법은 같다.</p>
 <h1 id="필요-라이브러리-설치"><a class="markdownIt-Anchor" href="#필요-라이브러리-설치"></a> 필요 라이브러리 설치</h1>
