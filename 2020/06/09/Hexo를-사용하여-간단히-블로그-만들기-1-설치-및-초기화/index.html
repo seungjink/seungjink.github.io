@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko,en,default">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -27,7 +27,7 @@
 <meta property="og:url" content="https://seungjink.github.io/2020/06/09/Hexo%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B0%84%EB%8B%A8%ED%9E%88-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%B4%88%EA%B8%B0%ED%99%94/index.html">
 <meta property="og:site_name" content="sjk">
 <meta property="og:description" content="Hexo를 사용하여 블로그를 만드는 방법을 정리해본다. 기본적으로 Windows 환경에서 설치한다고 가정하고, linux를 사용하는 경우에는 git이나 node.js를 설치하는 방법만 달라지고 나머지 사용 방법은 같다.  필요 라이브러리 설치 Hexo를 사용하기 위해 필수적으로 설치해야 하는 프로그램은 아래 2개이다.  node.js git  node.j">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="https://lh3.googleusercontent.com/lRGg0pc4YYgkFiV8DLRN6VHXDTzRcQttcc6br5fWakCULpiqFwzCQ-Zh7GmvgKLVIvvLl0ptdCvkaDR3NKLChH9Vn8kDA2D7XiP1kmrY_XeMrGKir9lABsxpoMC2MwpM6LFg5Xmf=d?-.jpg">
 <meta property="og:image" content="https://lh3.googleusercontent.com/3mCNZLTakWG3f4u3qhKqlunrzxQDj5JlDa0FIxYyDqpqHhxdnlnXg4o29w680vVV9UfVnbESHUNoRFImwwsqsCGMQ5usrcA-WHCi-RKwRAOsyNITrTsAgx2C5M1VdYJHt5ZEz1xA=d?-.jpg">
 <meta property="og:image" content="https://lh3.googleusercontent.com/XXdzjwvJVPGDeWtVYOrppJHDabzXZpFcPPU1wEWP48uveAzBTG2WxaxRuWYoVQgiI7pgTgHATienWvsg7Ztqxy2OSDUp3Nm3T-wsGKWWpbLtw8XXTbEzCH_DL-gQaD-v6rDfP5Rg=d?-.jpg">
@@ -48,7 +48,7 @@
     sidebar: "",
     isHome : false,
     isPost : true,
-    lang   : 'en'
+    lang   : 'ko'
   };
 </script>
 
@@ -121,21 +121,21 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>홈</a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>카테고리</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>아카이브</a>
 
   </li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>검색
         </a>
       </li>
   </ul>
@@ -188,7 +188,7 @@
     
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
     <link itemprop="mainEntityOfPage" href="https://seungjink.github.io/2020/06/09/Hexo%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B0%84%EB%8B%A8%ED%9E%88-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%B4%88%EA%B8%B0%ED%99%94/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -210,10 +210,10 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">작성일</span>
               
 
-              <time title="Created: 2020-06-09 09:14:32 / Modified: 09:19:34" itemprop="dateCreated datePublished" datetime="2020-06-09T09:14:32+09:00">2020-06-09</time>
+              <time title="Post created: 2020-06-09 09:14:32 / Updated at: 09:19:34" itemprop="dateCreated datePublished" datetime="2020-06-09T09:14:32+09:00">2020-06-09</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -465,10 +465,10 @@ function addLoadEvent(func) {
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          목차
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          흝어보기
         </li>
       </ul>
 
@@ -489,18 +489,18 @@ function addLoadEvent(func) {
           <a href="/archives/">
         
           <span class="site-state-item-count">1</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">포스트</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
         <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">categories</span></a>
+        <span class="site-state-item-name">카테고리</span></a>
       </div>
       <div class="site-state-item site-state-tags">
         <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">tags</span>
+        <span class="site-state-item-name">태그</span>
       </div>
   </nav>
 </div>
